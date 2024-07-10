@@ -60,6 +60,8 @@
   <ItemGroup>
     <Compile Include="Assets\Lesson1\Scripts\DOD\WaveCubesWithJobs.cs" />
     <Compile Include="Assets\Lesson1\Scripts\OOD\WaveCubes.cs" />
+    <Compile Include="Assets\Lesson2\Scripts\Systems\CubeRotateSystem.cs" />
+    <Compile Include="Assets\Lesson2\Scripts\Components\RotateSpeedAuthoring.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.0f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
