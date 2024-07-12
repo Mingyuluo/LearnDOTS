@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 8692637798036437737}
   - component: {fileID: 1158385759747681742}
   - component: {fileID: 6255672686927243684}
+  - component: {fileID: 7345959004859789406}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: BlueCube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,3 +123,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateSpeed: 360
+--- !u!114 &7345959004859789406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8800562457361826208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c3f0a261dfa10f4cafbe70a94a4e936, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

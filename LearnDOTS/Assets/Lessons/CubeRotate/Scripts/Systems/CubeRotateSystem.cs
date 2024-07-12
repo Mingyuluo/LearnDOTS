@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Lesson2.Scripts.Systems
 {
-    [BurstCompile]
+    [BurstCompile][UpdateInGroup(typeof(CubeRotateSystemGroup))]
     partial struct CubeRotateSystem : ISystem
     {
         [BurstCompile]
@@ -19,10 +19,18 @@ namespace Lesson2.Scripts.Systems
         public void OnUpdate(ref SystemState state)
         {
             float deltaTime = SystemAPI.Time.DeltaTime;
-            foreach (var (transform,rotateSpeed) in SystemAPI.Query<RefRW<LocalTransform>,RefRO<RotateSpeed>>())
+            //foreach (var (transform,rotateSpeed) in SystemAPI.Query<RefRW<LocalTransform>,RefRO<RotateSpeed>>())
+            //{
+            //    transform.ValueRW = transform.ValueRO.RotateY(rotateSpeed.ValueRO.Speed * deltaTime);
+            //}
+
+            var rotateJob = new RotateCubeWithJobEntity()
             {
-                transform.ValueRW = transform.ValueRO.RotateY(rotateSpeed.ValueRO.Speed * deltaTime);
-            }
+                deltaTime = deltaTime
+            };
+            rotateJob.ScheduleParallel();
+            //rotateJob.Schedule();
+            //rotateJob.Run();
         }
 
         [BurstCompile]

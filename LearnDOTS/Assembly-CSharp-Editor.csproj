@@ -833,11 +833,8 @@
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Entities.Editor">
-      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Entities.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Entities">
-      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Entities.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
+      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
       <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
@@ -926,17 +923,14 @@
     <Reference Include="Unity.Serialization.Editor">
       <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Serialization.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Collections.Editor">
-      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Entities.Hybrid">
       <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Entities.Hybrid.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Collections.Editor">
+      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Profiling.Core">
       <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Profiling.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -952,6 +946,9 @@
     </Reference>
     <Reference Include="Unity.Entities.Graphics.Editor">
       <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Entities.Graphics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Entities.Build">
       <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Entities.Build.dll</HintPath>
@@ -1028,14 +1025,17 @@
     <Reference Include="Unity.Entities.Editor.Properties">
       <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Entities.Editor.Properties.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Runtime">
-      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    <Reference Include="Unity.Entities.UI">
+      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Entities.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Entities">
+      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Entities.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
       <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Entities.UI">
-      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Entities.UI.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rendering.LightTransport.Runtime">
       <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
@@ -1043,8 +1043,8 @@
     <Reference Include="Unity.InputSystem">
       <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
-      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
+    <Reference Include="Unity.Entities.Editor">
+      <HintPath>E:\Code\LearnDOTS\LearnDOTS\Library\ScriptAssemblies\Unity.Entities.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
