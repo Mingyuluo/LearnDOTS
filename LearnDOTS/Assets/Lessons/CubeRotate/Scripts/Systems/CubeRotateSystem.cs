@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace Lesson2.Scripts.Systems
 {
-    [BurstCompile][UpdateInGroup(typeof(CubeRotateSystemGroup))]
+    [BurstCompile]
     partial struct CubeRotateSystem : ISystem
     {
         [BurstCompile]

@@ -1,12 +1,12 @@
-using Lesson2.Scripts.Components;
+using Unity.Burst;
 using Unity.Entities;
-using Unity.Transforms;
 
-public partial struct RotateCubeWithJobEntity : IJobEntity
+[BurstCompile]
+partial struct RotateCubeWithJobEntity : IJobEntity
 {
     public float deltaTime;
-    public void Execute(ref LocalTransform transform,in RotateSpeed speed)
-    {
-        transform = transform.RotateY(speed.Speed * deltaTime);
+    void Execute(MoveAndRotateAspect aspect)
+    { 
+        aspect.Rotate(deltaTime);
     }
 }

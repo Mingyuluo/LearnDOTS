@@ -58,16 +58,36 @@
     <Analyzer Include="E:\Code\LearnDOTS\LearnDOTS\Library\PackageCache\com.unity.entities\Unity.Entities\SourceGenerators\Unity.Entities.Analyzer.CodeFixes.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Lessons\GenerateAndDestroyCubeWithEcb\Scripts\AuthoringAndComponents\RandomComponentAuthoring.cs" />
     <Compile Include="Assets\Lessons\WaveCubeWithJob\Scripts\DOD\WaveCubesWithJobs.cs" />
+    <Compile Include="Assets\Lessons\GenerateAndDestroyCubeWithEcb\Scripts\Systems\GenerateSystem.cs" />
     <Compile Include="Assets\Lessons\CubeRotate\Scripts\Components\BlueCubeTagAuthoring.cs" />
+    <Compile Include="Assets\Lessons\WaveCubeWithEntities\Scripts\AuthoringAndComponents\RotateAndMoveSpeedAuthoring.cs" />
+    <Compile Include="Assets\Lessons\WaveCubeWithEntities\Scripts\Aspects\RotateAndMoveAspect.cs" />
+    <Compile Include="Assets\Lessons\CreateEntitiesByPrefab\Scripts\CubeGeneratorByPrefabSystem.cs" />
     <Compile Include="Assets\Lessons\CubeRotate\Scripts\Systems\CubeRotateSystem.cs" />
+    <Compile Include="Assets\Lessons\WaveCubeWithEntities\Scripts\AuthoringAndComponents\CubeGeneratorParamsAuthoring.cs" />
+    <Compile Include="Assets\Lessons\GenerateAndDestroyCubeWithEcb\Scripts\Jobs\GenerateJob.cs" />
+    <Compile Include="Assets\Lessons\WaveCubeWithEntities\Scripts\Jobs\SetPositionJob.cs" />
+    <Compile Include="Assets\Lessons\WaveCubeWithEntities\Scripts\Systems\CubeGeneratorSystem.cs" />
+    <Compile Include="Assets\Lessons\GenerateAndDestroyCubeWithEcb\Scripts\Systems\DestroyCubeSystem.cs" />
+    <Compile Include="Assets\Lessons\CreateEntitiesByPrefab\Scripts\MoveAndRotateAspect.cs" />
+    <Compile Include="Assets\Lessons\GenerateAndDestroyCubeWithEcb\Scripts\AuthoringAndComponents\LifeAuthoring.cs" />
+    <Compile Include="Assets\Lessons\GenerateAndDestroyCubeWithEcb\Scripts\AuthoringAndComponents\GeneratorAuthoring.cs" />
+    <Compile Include="Assets\Lessons\GenerateAndDestroyCubeWithEcb\Scripts\Jobs\DestroyJob.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Lessons\CreateEntitiesByPrefab\Scripts\CubeGeneratorByPrefabAuthoring.cs" />
     <Compile Include="Assets\Lessons\CubeRotate\Scripts\Jobs\RotateCubeWithJobEntity.cs" />
+    <Compile Include="Assets\Lessons\WaveCubeWithEntities\Scripts\Systems\CubeRotateAndMoveSystem.cs" />
     <Compile Include="Assets\Scripts\SceneSystemGroup.cs" />
+    <Compile Include="Assets\Lessons\GenerateAndDestroyCubeWithEcb\Scripts\Systems\MoveAndRotateSystem.cs" />
     <Compile Include="Assets\Lessons\CubeRotate\Scripts\Systems\Lesson2SystemGroup.cs" />
     <Compile Include="Assets\Lessons\CubeRotate\Scripts\Components\RedCubeTagAuthoring.cs" />
     <Compile Include="Assets\Lessons\CubeRotate\Scripts\Components\RotateSpeedAuthoring.cs" />
+    <Compile Include="Assets\Lessons\WaveCubeWithEntities\Scripts\Jobs\RotateAndMoveJob.cs" />
+    <Compile Include="Assets\Lessons\GenerateAndDestroyCubeWithEcb\Scripts\Jobs\MoveAndRotateJob.cs" />
     <Compile Include="Assets\Lessons\WaveCubeWithJob\Scripts\OOD\WaveCubes.cs" />
+    <Compile Include="Assets\Lessons\GenerateAndDestroyCubeWithEcb\Scripts\AuthoringAndComponents\TargetPosAuthoring.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.0f1c2\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
