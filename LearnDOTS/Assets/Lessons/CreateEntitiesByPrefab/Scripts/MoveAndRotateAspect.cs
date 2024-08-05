@@ -3,6 +3,7 @@ using Unity.Entities;
 using Unity.Mathematics;
 using Unity.Transforms;
 using UnityEngine;
+using RotateSpeed = Lessons.CubesWithJob.Scripts.Components.RotateSpeed;
 
 public readonly partial struct MoveAndRotateAspect : IAspect
 {
